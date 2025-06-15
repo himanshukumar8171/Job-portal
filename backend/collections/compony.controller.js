@@ -64,7 +64,7 @@ export const getCompany = async (req, res) => {
         console.log(error);
     }
 }
-// get copany by id
+// get company by id
 export const getCompanyById = async (req, res) => {
     try {
         const companyid  = req.params.id;
